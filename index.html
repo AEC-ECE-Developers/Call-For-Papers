@@ -19,19 +19,8 @@
             /* Adjust spacing */
         }
 
-        .container-wrapper {
-            margin-top: 5%;
-            display: flex;
-            padding: 0 50px;
-            align-items: flex-start;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin-bottom: 10%;
-        }
-
-        .container {
-            width: 25%;
+        .cnt {
+            width: 30%;
             /* 33.33% width for each container with 20px gap */
             padding: 20px;
             border: 1px solid #ccc;
@@ -41,7 +30,7 @@
 
         }
 
-        .container:hover {
+        .cnt:hover {
             transform: scale(1.1);
         }
 
@@ -95,11 +84,11 @@
         </nav>
 
         <!-- hero section -->
-        <div class="pl-12">
+       <section class="pl-12">
             </ul>
-            <div class="container-wrapper">
-                <div class="container">
-                    <h2>Communication Track</h2><br>
+            <div class="flex justify-evenly mt-20 gap-8 mb-20">
+                <div class="w-1/5 bg-gradient-to-r from-sky-300 to-sky-50 cnt border-slate-700">
+                    <h2 class="flex justify-center">Communication Track</h2><br>
                     <ul style="list-style-type: none;">
                         <li><i class="tick-icon fas fa-check"></i>Communication Theory</li><br>
                         <li><i class="tick-icon fas fa-check"></i>Information Theory & Coding</li><br>
@@ -133,8 +122,8 @@
                     </ul>
                 </div>
 
-                <div class="container">
-                    <h2>Computing Track</h2><br>
+                <div class="w-1/5 bg-gradient-to-r from-sky-100 via-sky-200 to-sky-100 cnt border-slate-700">
+                    <h2 class="flex justify-center">Computing Track</h2><br>
                     <ul style="list-style-type: none;">
                         <li><i class="tick-icon fas fa-check"></i>Linear and nonlinear optimization</li><br>
                         <li><i class="tick-icon fas fa-check"></i>Combinatorial optimization</li><br>
@@ -168,8 +157,8 @@
                     </ul>
                 </div>
 
-                <div class="container">
-                    <h2>Device And Signal Processing Track</h2><br>
+                <div class="w-1/5 bg-gradient-to-r from-sky-50 to-sky-300 cnt border-slate-700">
+                    <h2 class="flex justify-center ">Device And Signal Processing Track</h2><br>
                     <ul style="list-style-type: none;">
                         <li><i class="tick-icon fas fa-check"></i>Image & Video Signal Processing & Medical Imaging</li><br>
                         <li><i class="tick-icon fas fa-check"></i>DSP Algorithms & Architectures</li><br>
@@ -202,7 +191,7 @@
             </div>
 
 
-        </div>
+        </section>
 
        <!-- Footer Section -->
     <div class=" mx-auto w-full">
